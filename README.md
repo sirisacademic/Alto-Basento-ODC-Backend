@@ -14,7 +14,7 @@ is then constructed based on the previously issued sparql query.
 To run this application Java 8 or greater is required 
 
 
-###Installing 
+### Installing 
 Clone this repository, then build the application (for example using [Maven](https://maven.apache.org/))
 
 You can then run the resulting .jar file with the standard command

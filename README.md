@@ -1,4 +1,4 @@
-#ALTO BASENTO API
+# ALTO BASENTO API
 
 Rest API build for the AltoBasento project.
 It serves as a layer on top of a Virtuoso RDF database.
@@ -9,7 +9,7 @@ SPARQL query.
 A JSON / XML file compliant to the [OCS standard](http://standard.open-contracting.org/latest/en/) 
 is then constructed based on the previously issued sparql query. 
 
-##Getting started
+## Getting started
 ### Prerequisites
 To run this application Java 8 or greater is required 
 
@@ -20,26 +20,26 @@ Clone this repository, then build the application (for example using [Maven](htt
 You can then run the resulting .jar file with the standard command
 `java -jar filename.jar`
 
-##Built with
+## Built with
 * [Spring boot](https://spring.io/projects/spring-boot) - A library used to build java applications
 * [rdf4j](http://rdf4j.org/) - A library used to query a SPARQL endpoint with java
 * [json](http://www.json.org/) - A library used to generate the JSON responses of the API
 * [jackson-dataformat-xml](http://jackson.codehaus.org) - A library used to generate the XML responses of the API
 
-##Usage
+## Usage
 Once the application is started it runs at http://localhost:8080
 
-###API
+### API
 
-####/tender 	Param: tenderId
+#### /tender 	Param: tenderId
 Returns the tender associated with a particular ID. Example:
 `http://localhost:8080/tender/6767364D6D`
 
-####/company 	Param: companyName
+#### /company 	Param: companyName
 Returns all the tenders associated to a particular Company. Example:
 `http://localhost:8080/company/Autolinee%20Caivano`
 
-####/all 
+#### /all 
 Returns all the tenders
 
 ## Authors
